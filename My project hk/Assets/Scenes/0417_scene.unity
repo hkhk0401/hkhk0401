@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6147709
+      value: -6.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_LocalPosition.y
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.1233212
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_LocalRotation.w
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 300f87712602e5b4f8e258f31b410684, type: 3}
       propertyPath: m_TagString
@@ -229,6 +233,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MonsterTemp: {fileID: 919132149028043832}
+--- !u!1001 &112006203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 369898140}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.278
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+      propertyPath: m_Name
+      value: Gun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
 --- !u!1 &362916882
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +322,38 @@ Transform:
   m_Father: {fileID: 1313483205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &369898139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369898140}
+  m_Layer: 0
+  m_Name: MonsterPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &369898140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369898139}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 885482147}
+  m_Father: {fileID: 543450652760958594}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &740076358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -288,8 +381,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.50743544, z: 1}
-  m_Center: {x: 0, y: 0.24628228, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &843951637
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +467,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &885482147 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+  m_PrefabInstance: {fileID: 112006203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &896554388
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +966,8 @@ MonoBehaviour:
   moveSpeed: 6
   PlayerPivot: {fileID: 1642079348}
   projectileController: {fileID: 1271173376}
+  Player_hp: 5
+  Monster_Hp: 5
 --- !u!1 &1313483201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1100,8 @@ MonoBehaviour:
   moveSpeed: 6
   PlayerPivot: {fileID: 362916882}
   projectileController: {fileID: 896554392}
+  Player_hp: 5
+  Monster_Hp: 5
 --- !u!1 &1624198833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1331,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3453a6d0800197d49bf376d8aa062871, type: 3}
+--- !u!1 &2028928369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028928370}
+  m_Layer: 0
+  m_Name: firerate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028928370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028928369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29287025, y: -0.1832388, z: 0.036779284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 885482147}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129958666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129958667}
   m_Layer: 0
-  m_Name: Pivot
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,11 +1401,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149028043832}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0.608, z: 1.139784}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1151388029219788762}
+  - {fileID: 369898140}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1322,6 +1456,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  rotationSpeed: 1
+  bulletPrefab: {fileID: 5869651402367204874, guid: b926d9bcc7cba654b876fa8d0cca0f7a, type: 3}
+  EnemyPivot: {fileID: 369898139}
+  firePoint: {fileID: 2028928370}
+  fireRate: 0.5
+  nextFireTime: 0
 --- !u!4 &1151388029219788762
 Transform:
   m_ObjectHideFlags: 0
